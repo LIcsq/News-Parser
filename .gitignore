@@ -1,0 +1,18 @@
+
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.swp
+*.swo
+*.bak
+*.dat
+*.dir
+*.sqlite3
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
