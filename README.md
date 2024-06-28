@@ -17,6 +17,7 @@
 The News Aggregator project is a Django-based application that fetches news articles from an RSS feed, matches them with trending topics from Google Trends, and enriches the news articles with sentiment scores using OpenAI's GPT-3.5-turbo model. The application supports translation of trends into Ukrainian language.
 
 ## Project Structure
+```
 news_aggregator_project/
 ├── news_aggregator/
 │ ├── migrations/
@@ -40,6 +41,7 @@ news_aggregator_project/
 │ └── wsgi.py
 ├── manage.py
 └── requirements.txt
+```
 
 ## Installation
 1. **Clone the repository:**
@@ -99,7 +101,7 @@ python manage.py clear_news
 ## Tasks
 ### Update News
 
-# Fetches RSS feed, matches news with Google Trends, and enriches news with sentiment scores.
+## Fetches RSS feed, matches news with Google Trends, and enriches news with sentiment scores.
 
     Location: news_aggregator/tasks.py
     Commands to run manually:
