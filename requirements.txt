@@ -1,8 +1,8 @@
-Django==5.0.6
-celery==5.2.7
-feedparser==6.0.10
-pytrends==4.8.0
-googletrans==4.0.0-rc1
-openai==0.27.0
-requests==2.31.0
-eventlet==0.32.0
+Django==3.2
+djangorestframework==3.12.4
+django-celery-results==2.0.1
+celery==5.2.3
+eventlet==0.31.0
+feedparser==6.0.8
+pytrends==4.7.3
+translate==3.6.1
